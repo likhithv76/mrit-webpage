@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MRIT – Exskilence Partnership</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- 1. Header: Transforming Engineering + MRIT-Exskilence Partnership, logos, intro, MRIT Placements title + cards -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-titles">
+          <h1>Transforming Engineering Careers:</h1>
+          <p class="subtitle">The MRIT-Exskilence Partnership</p>
+        </div>
+        <div class="hero-logos">
+          <img src="./Images/mrit-exskilence_logo.png" alt="MRIT - Exskilence logo">
+        </div>
+      </div>
+      <p class="intro-text">
+        The rapid pace of technological innovation with the advent of Artificial Intelligence (AI) means that a traditional engineering curriculum, while foundational, needs to be supplemented with practical, hands-on training on the latest tools and technologies.
+      </p>
+      <p class="intro-text">
+        With this end in view, our college has joined hands with <strong>Exskilence</strong>, an Upskilling and Placement Assistance firm, to create a powerful skilling and placements ecosystem for our engineering students in Computer Science and related streams. This collaboration elevates employability, preparing students for successful careers and making them job-ready engineers from Day 1.
+      </p>
+    </div>
+  </section>
+
+  <section class="placements-intro">
+    <h2>MRIT Placements through Exskilence</h2>
+    <img src="./Images/MRIT 23-25 .png" alt="MRIT Placements" class="placements-intro-img">
+  </section>
+
+  <!-- 3. Testimonials -->
+  <section class="testimonials-section">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-video-wrap">
+            <video id="video-varun" class="testimonial-video" playsinline controls preload="metadata" controlsList="nodownload noplaybackrate" oncontextmenu="return false" poster="./public/Zeta.png">
+              <source src="./public/Testimonial-videos/Varun k.mp4#t=0.1" type="video/mp4">
+            </video>
+            <button type="button" aria-label="Play video" class="testimonial-play-btn" onclick="startVideo('video-varun', this)">
+              <span class="testimonial-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </button>
+          </div>
+          <h4 class="testimonial-name">Varun K</h4>
+          <p class="testimonial-role">Now working as an SDET at Zeta Bengaluru</p>
+          <p class="testimonial-year">Academic Year 2025-26</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-video-wrap">
+            <video id="video-suhas" class="testimonial-video" playsinline controls preload="metadata" controlsList="nodownload noplaybackrate" oncontextmenu="return false" poster="./public/Images/Zeta.png">
+              <source src="./public/Testimonial-videos/Suhas.mp4#t=0.1" type="video/mp4">
+            </video>
+            <button type="button" aria-label="Play video" class="testimonial-play-btn" onclick="startVideo('video-suhas', this)">
+              <span class="testimonial-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </button>
+          </div>
+          <h4 class="testimonial-name">Suhas</h4>
+          <p class="testimonial-role">Now working as an SDET at Zeta Bengaluru</p>
+          <p class="testimonial-year">Academic Year 2025-26</p>
+        </div>
+      </div>
+
+      <div class="testimonials-text-grid">
+        <div class="testimonial-text-card">
+          <img src="./Images/Nikhitha Sai A.png" alt="Nikhitha Sai A" class="testimonial-text-photo">
+          <div class="testimonial-text-body">
+            <h4 class="testimonial-text-name">Nikhitha Sai A</h4>
+            <p class="testimonial-text-role">Currently working as an Analyst at Deloitte</p>
+            <p class="testimonial-text-quote">The workshop really helped me understand topics better and recall key concepts. They even helped fix issues in my resume, which was great. The program had a good mix of theory and hands-on learning, and the placement support was solid. Overall, it was a great experience and made me feel more ready for my career, thanks for the program</p>
+          </div>
+        </div>
+        <div class="testimonial-text-card">
+          <img src="./Images/Shobha P N.png" alt="Shobha P N" class="testimonial-text-photo">
+          <div class="testimonial-text-body">
+            <h4 class="testimonial-text-name">Shobha P N</h4>
+            <p class="testimonial-text-role">Currently working as an Analyst at Deloitte</p>
+            <p class="testimonial-text-quote">The internship tasks provided valuable learning opportunities. The trainers were supportive in resolving doubts. This program stands out compared to others I've done before. I would recommend this program to fellow students</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Holistic Upskilling timeline -->
+  <section class="timeline-section">
+    <div class="container">
+      <h2>Holistic Upskilling for Engineering Students</h2>
+      <p class="timeline-intro">
+        While our college focuses on core academics, Exskilence enhances the skills of our students through their transformative upskilling program. The program highlights are as follows:
+      </p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">Extensive Practical training in Python full stack development covering SQL, Python, DSA, Frontend tools (HTML, CSS and JavaScript) and Flask framework</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">Hybrid model that includes remote learning, on-site workshops at our college premises and live online sessions by experts</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">An end-to-end Full Stack Project</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">Extensive coding practice on the Exskilence code learning platform</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">Aptitude Training</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">Interview preparation (including mock interviews by real corporate executives)</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">"English Bolo" communication program to build confidence and fluency in English</div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">Placement support by connecting students with companies for interviews</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Personalised Tracking and Reporting -->
+  <section class="tracking-section">
+    <div class="container">
+      <h2>Personalised Tracking and Reporting</h2>
+      <div class="tracking-inner">
+        <p class="body-text">
+          Our partnership prioritises student progress through individual tracking. The Exskilence proprietary software enables continuous tracking of every student's progress. College coordinators receive detailed reports to identify students needing additional support. The Principal can monitor student progress and coordinator tracking in real time, thereby, maintaining transparency and accountability.
+        </p>
+        <img src="./Images/coordinator_flow.png" alt="Coordinator flow" class="tracking-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Job-Readiness -->
+  <section class="job-readiness">
+    <div class="container">
+      <h2>Job-Readiness</h2>
+      <p class="body-text">
+        By the end of the upskilling program, students are transformed from fresh graduates into professionals who possess the practical expertise and confidence of someone with 6 months to 1 year of real-world experience. The immersive, project-driven approach ensures they are not only familiar with the latest technologies but have applied their skills to industry-relevant challenges. When students step into interviews or their first roles, they stand out as highly capable candidates ready to contribute from day one.
+      </p>
+    </div>
+  </section>
+
+  <!-- 6. Hear from the Principal -->
+  <section class="principal-section">
+    <div class="container">
+      <div class="principal-inner">
+        <div>
+          <h2>Hear from the Principal</h2>
+          <p class="body-text">
+            Information Technology today is changing faster than ever, with AI changing every previous rule. The IT industry today cannot afford long lead times to make their freshers productive, and is therefore looking for job-ready talent.
+          </p>
+          <p class="body-text">
+            As a sincere academic institution, committed to give our students the best chance of a successful career, we found it a huge challenge to meet this industry demand successfully. To overcome this challenge, we have now partnered with Exskilence Upskilling Bengaluru, a firm that is focused on skilling and placement support. The results of this association have been very heartening so far.
+          </p>
+          <p class="body-text">
+            The Exskilence team is extremely committed to making the student truly job-ready. Their program delivers intense practical training using their own proprietary Learning Management System and Coding Platform. This is supplemented further by detailed on-site practical workshops. Personally, what I liked most about their program is how they track each student's progress every day. And this is shared with both the student and the college, for suitable action.
+          </p>
+          <p class="body-text">
+            I am extremely optimistic of achieving some great results for our students through this partnership with Exskilence in the years to come.
+          </p>
+          <div class="principal-signature">
+            <div class="name">Dr. Abhinandhan K S</div>
+            <div class="title">Principal,<br>Mysuru Royal Institute of Technology (MRIT)</div>
+          </div>
+        </div>
+        <div class="principal-photo">
+          <img src="./public/Images/mrit-principal.png" alt="Dr. Abhinandhan K S, Principal, MRIT">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    function startVideo(videoId, button) {
+      var video = document.getElementById(videoId);
+      if (!video) return;
+      document.querySelectorAll('video').forEach(function(v) {
+        if (v.id !== videoId) v.pause();
+      });
+      button.style.display = 'none';
+      video.play();
+      var showButton = function() { button.style.display = 'flex'; };
+      var hideButton = function() { button.style.display = 'none'; };
+      video.removeEventListener('pause', showButton);
+      video.removeEventListener('ended', showButton);
+      video.addEventListener('pause', showButton);
+      video.addEventListener('ended', showButton);
+      video.addEventListener('play', hideButton);
+    }
+  </script>
+</body>
+</html>
